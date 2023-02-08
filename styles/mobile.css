@@ -1,0 +1,115 @@
+.all-left-items{ display: none; }
+#hid, #txt, .bar, .homeicon{ display: none;}
+.all-right-items{ display: none; }
+
+
+
+.mobile-bar{
+
+    display: block;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    height: 60px;
+}
+
+#insta-txt{
+   
+    max-width: 103px;
+    position: relative;
+    top: 20%;
+    
+}
+
+.mobile-bar input{
+
+    position: relative;
+    right: 7%;
+    top: 20%;
+    float: right;
+    background-color: rgb(233, 232, 232);
+    border: none; 
+    border-radius: 10px; 
+    height: 32px; 
+    min-width: 300px;
+    background-image: url("assets/images/searchicon_light_grey.png");
+    background-repeat: no-repeat;
+    background-position-y: 40%;
+    background-position-x: 5%;
+    background-size: 15px;
+       
+}
+
+input::placeholder{
+    position: relative;
+    left: 45px;
+}
+
+
+#notifications{
+
+    float: left;
+    position: relative;
+    left: 94%;
+    top: 25%;
+    width: 30px;
+}
+
+
+.posts{
+    margin: -135px;
+    position: absolute;
+    top: 30%;
+}
+
+
+.stories{ margin: 0px; }
+
+.post{
+
+    align-items: center ;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 0px 1px 12px;
+    background-color: #FFFFFF;
+    width: 470px;
+ 
+}
+
+.post{
+
+    align-items: center ;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 0px 1px 12px;
+    background-color: #FFFFFF;
+    width: 470px;
+ 
+}
+
+.mobile-bottom{
+
+    display: flex;
+    background-color: #FFFFFF;
+    border-top: 1px solid rgb(219, 219, 219);
+    width: 100%;
+    z-index: 1;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    
+
+}
+
+.mobil-menu{
+    position: relative;
+    top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+}
+
+
+
+
+
+
